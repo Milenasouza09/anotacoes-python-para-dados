@@ -1,0 +1,225 @@
+# 📘 Lógica de Programação
+
+Lógica de programação = estudo da estrutura da linguagem das máquinas
+
+- Pensar no computador como uma criança recém alfabetizada  
+- Tudo bem explicado passo a passo  
+- O computador é extremamente LITERAL e precisa receber instruções na forma de algoritmos  
+
+Algoritmo é um conjunto de passos finitos e organizados, que quando executados, resolvem determinado problema.
+
+Estrutura de linguagem com passos claros para resolver certo problema com o máximo de detalhes possíveis (lendo de cima pra baixo da esquerda pra direita).
+
+Vai tomar uma decisão baseado numa condição.
+
+---
+
+## 🛒 Algoritmo de compras
+
+- Abrir a geladeira  
+- Se há ovos  
+    - Não fazer nada  
+- Do contrário  
+    - Pegar carteira  
+    - Ir até o supermercado  
+    - Comprar ovos  
+    - Voltar para casa  
+- Fim se  
+- Fim algoritmo  
+
+(Se trocar os passos de lugar, o computador retorna erro. Mesmo com estrutura, não cumpre o objetivo.)
+
+---
+
+## 📦 Variáveis
+
+Atribuição de uma variável: guardar/registrar uma informação na memória do computador para uso posterior.
+
+---
+
+## 🥔 Algoritmo do purê de batatas
+
+- Abrir a geladeira  
+- x = contagem de batatas  
+- y = batatas da receita         → ENTRADA  
+- z = y - x  
+
+- Se z > 0  
+    - Pegar carteira  
+    - Ir até o supermercado      → PROCESSAMENTO  
+    - Comprar z batatas  
+    - Voltar pra casa  
+
+- Preparar purê com y batatas    → SAÍDA  
+- Fim se  
+- Fim algoritmo  
+
+---
+
+## 🧂 Algoritmo da aferição de tempero
+
+- Pegar uma porção do purê  
+- Provar  
+- Enquanto sal não estiver ok  
+    - Adicionar sal  
+    - Provar  
+- Fim enquanto  
+- Fim algoritmo  
+
+---
+
+## 🔁 Estrutura geral dos algoritmos
+
+Entrada → Processamento → Saída  
+
+---
+
+## 📘 Exercício: Média de notas
+
+Calcular a média das notas de alunos (P1, P2, P3, P4)
+
+---- Digitar nota da primeira prova  
+---- Digitar nota da segunda prova  
+---- Digitar nota da terceira prova   → ENTRADA  
+---- Digitar nota da quarta prova  
+
+---- Somar as notas  
+---- P1 + P2 + P3 + P4  
+---- Dividir por 4                   → PROCESSAMENTO  
+
+---- Mostrar média                  → SAÍDA  
+---- Fim algoritmo  
+
+---
+
+## 🧩 Elementos da programação
+
+- Variáveis e constantes  
+- Operadores  
+- Estruturas de controle de fluxo  
+- Laços  
+- Métodos  
+
+---
+
+## 💾 Memória
+
+Memória RAM:
+- Memória de curto prazo  
+- Acesso rápido  
+- Guarda informações temporárias  
+- Onde ficam as variáveis  
+
+Memória em Disco (HD):
+- Armazena permanentemente  
+- Precisa escrever/registrar  
+
+Analogia:
+- RAM → lembrar de cabeça  
+- HD → documento armazenado  
+
+---
+
+## 📦 Variáveis e constantes
+
+São elementos básicos que o programa manipula.
+
+Variável:
+- Espaço na memória  
+- Armazena dados  
+- Só guarda um valor por vez  
+
+Tipos:
+
+NOME = "José" → Caractere  
+IDADE = 45 → Numérico  
+SENHA = "abc123" → Alfanumérico  
+CASADO = false → Lógico  
+HOMEM = true → Lógico  
+
+---
+
+## 🔢 Operadores
+
+Ferramentas para manipular dados.
+
+### Aritméticos
++ Adição  
+- Subtração  
+* Multiplicação  
+/ Divisão  
+** Exponenciação  
+
+### Relacionais
+= Igual  
+<> Diferente  
+> Maior  
+< Menor  
+>= Maior ou igual  
+<= Menor ou igual  
+
+### Lógicos
+AND → duas condições verdadeiras  
+OR → uma condição verdadeira  
+NOT → negação  
+
+---
+
+## 🔄 Estruturas de decisão
+
+Permitem escolher caminhos.
+
+Algoritmo padrão:
+
+--- Faça x  
+--- Faça y  
+--- SE condição z for verdadeira  
+---    Faça isso  
+--- SENÃO  
+---    Faça aquilo  
+
+Fluxo:
+
+Faça x  
+  ↓  
+Faça y  
+  ↓  
+SE (condição z)  
+ /           \  
+SENÃO       Faça isso  
+  |             |  
+Faça aquilo     |  
+   \           /  
+    \         /  
+     Fim algoritmo  
+
+---
+
+## 🔁 Estruturas de repetição
+
+Executam enquanto uma condição for verdadeira.
+
+Exemplo:
+Enquanto a louça estiver suja → continuar lavando
+
+Algoritmo padrão:
+
+--- Faça a  
+--- Faça b  
+--- Enquanto condição c for verdadeira  
+---    Faça isso  
+--- Faça d  
+
+Fluxo:
+
+Faça a  
+  ↓  
+Faça b  
+  ↓  
+Enquanto c  
+ /       \  
+|       Faça isso  
+|          |  
+ \        /  
+  \      /  
+   Fim algoritmo  
